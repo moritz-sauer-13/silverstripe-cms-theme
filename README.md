@@ -1,8 +1,8 @@
 # Silverstripe CMS Branding
 
-[![Latest Stable Version](https://poser.pugx.org/ryanpotter/silverstripe-cms-theme/v/stable)](https://packagist.org/packages/ryanpotter/silverstripe-cms-theme)
-[![Total Downloads](https://poser.pugx.org/ryanpotter/silverstripe-cms-theme/downloads)](https://packagist.org/packages/ryanpotter/silverstripe-cms-theme)
-[![Monthly Downloads](https://poser.pugx.org/ryanpotter/silverstripe-cms-theme/d/monthly)](https://packagist.org/packages/ryanpotter/silverstripe-cms-theme)
+[![Latest Stable Version](https://poser.pugx.org/moritz-sauer-13/silverstripe-cms-theme/v/stable)](https://packagist.org/packages/moritz-sauer-13/silverstripe-cms-theme)
+[![Total Downloads](https://poser.pugx.org/moritz-sauer-13/silverstripe-cms-theme/downloads)](https://packagist.org/packages/moritz-sauer-13/silverstripe-cms-theme)
+[![Monthly Downloads](https://poser.pugx.org/moritz-sauer-13/silverstripe-cms-theme/d/monthly)](https://packagist.org/packages/moritz-sauer-13/silverstripe-cms-theme)
 
 Just a nice little UI change for the cms sidebar.
 
