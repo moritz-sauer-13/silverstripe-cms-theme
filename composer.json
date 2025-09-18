@@ -1,5 +1,5 @@
 {
-  "name": "ryanpotter/silverstripe-cms-theme",
+  "name": "moritz-sauer-13/silverstripe-cms-theme",
   "description": "CMS Theme",
   "type": "silverstripe-vendormodule",
   "keywords": [
@@ -15,12 +15,12 @@
     }
   ],
   "require": {
-    "silverstripe/framework": "^4.0 || ^5.0",
-    "silverstripe/admin": "^1.0 || ^2.0",
-    "silverstripe/siteconfig": "^4.0 || ^5.0"
+    "silverstripe/framework": "^5",
+    "silverstripe/admin": "^2",
+    "silverstripe/siteconfig": "^5"
   },
   "support": {
-    "issues": "https://github.com/Rhym/silverstripe-cms-theme/issues"
+    "issues": "https://github.com/moritz-sauer-13/silverstripe-cms-theme/issues"
   },
   "extra": {
     "installer-name": "silverstripe-cms-theme",
