@@ -21,7 +21,7 @@ Thanks to [https://github.com/symbiote/silverstripe-grouped-cms-menu](https://gi
 ## Installation
 
 ```bash
-composer require ryanpotter/silverstripe-cms-theme
+composer require moritz-sauer-13/silverstripe-cms-theme
 ```
 ## Configuration
 
