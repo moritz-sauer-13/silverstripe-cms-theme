@@ -1,0 +1,6 @@
+de:
+  RyanPotter\SilverStripeCMSTheme\Extensions\SiteConfigExtension:
+    CMSBRANDINGTAB: 'CMS-Markenbildung'
+    IMAGES: Bilder
+    LOGODESCRIPTIOM: 'Das Logo wird oben links im CMS-Menü angezeigt.'
+    LOGOLABEL: Logo
