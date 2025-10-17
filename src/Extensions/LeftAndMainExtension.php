@@ -14,7 +14,8 @@ use SilverStripe\View\Requirements;
  */
 class LeftAndMainExtension extends Extension
 {
-  public function init()
+
+  public function onInit()
   {
     $config = LeftAndMain::config();
     $cms_background = !$config->cms_background ? '#1d48a0' : $config->cms_background;
@@ -38,12 +39,13 @@ class LeftAndMainExtension extends Extension
 
     // CMS Menu Header
     Requirements::customCSS(
-      '.cms .cms-menu__header {background: ' . $cms_background . ' !important;color: ' . $cms_color . ' !important; border-color: ' . $cms_border_color . ' !important;}' .
+      '.cms .cms-menu__header, .cms .cms-help__menu, .cms .cms-help__toggle {background: ' . $cms_background . ' !important;color: ' . $cms_color . ' !important; border-color: ' . $cms_border_color . ' !important;}' .
       '.cms-menu__header span, .cms-login-status .cms-login-status__profile-link, .cms-login-status .cms-login-status__logout-link, .cms-sitename .cms-sitename__title {color: ' . $cms_color . ' !important;}' .
       '.cms-sitename {border-color: ' . $cms_border_color . ' !important;}' .
       '.cms-sitename:hover, .cms-sitename:focus {background-color: ' . $cms_hover_background . ' !important;color: ' . $cms_hover_color . ' !important;}' .
       '.cms-login-status .cms-login-status__profile-link:focus, .cms-login-status .cms-login-status__profile-link:hover, .cms-login-status .cms-login-status__profile-link:focus span, .cms-login-status .cms-login-status__profile-link:hover span {background-color: ' . $cms_hover_background . ' !important;color: ' . $cms_hover_color . ' !important;}' .
-      '.cms-login-status .cms-login-status__logout-link:focus, .cms-login-status .cms-login-status__logout-link:hover {background-color: ' . $cms_hover_background . ' !important;color: ' . $cms_hover_color . ' !important;}'
+      '.cms-login-status .cms-login-status__logout-link:focus, .cms-login-status .cms-login-status__logout-link:hover {background-color: ' . $cms_hover_background . ' !important;color: ' . $cms_hover_color . ' !important;}' .
+      '.cms .cms-help__link, .cms .cms-help__toggle-title, .cms .cms-help__caret {color: ' . $cms_color . ' !important;}'
     );
 
     // Menu List
